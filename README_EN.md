@@ -1,5 +1,17 @@
 # LocationSpoofer
 
+## Independent fork
+
+This repository maintains the last public 3.0.0 sources. Fork version 3.0.21 does not include all features of the author's later private APKs. These sources have no account login module and do not require the author's account server.
+
+Download APKs from [this fork's Releases](https://github.com/nsuanningmeng/LocationSpoofer-fork/releases). Choose `scoped` or `global`, and `arm64-v8a` or `armeabi-v7a` for your device. Root and LSPosed requirements still apply.
+
+This fork uses its own persistent release certificate and **cannot replace an APK signed by the original author in place**. Export and back up old data before migration. If the old app cannot export because login is unavailable, preserve it and its data until you have a backup; uninstalling deletes app data. Later private versions may use incompatible data formats. Future releases of this fork use the same signing key and support in-place updates.
+
+Update checks, repository links and adaptation documents now use this repository. Map providers and optional WiGLE / OpenCellID services still require their own API configuration.
+
+The archive notice below refers to the original upstream project.
+
 Historical source archive of an Android project for location, route, and environmental data simulation.
 
 > **Repository status: archived and no longer maintained.**

@@ -7,6 +7,7 @@ local.yml
 
 # ─── Gradle ──────────────────────────────────────────────
 .gradle/
+.kotlin/
 build/
 app/build/
 **/build/
@@ -30,6 +31,7 @@ captures/
 # 不要把 API Key、Keystore 提交进仓库
 *.jks
 *.keystore
+*.p12
 keystore.properties
 google-services.json
 
@@ -44,3 +46,6 @@ app/scoped/
 
 # Custom Gradle Home
 .gradle_home/
+
+# Python device-test cache
+__pycache__/
